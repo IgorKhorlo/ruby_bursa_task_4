@@ -15,16 +15,16 @@ module Library
         self.class_variable_get :@@comments_counter
       end
 
-      def inc_comment_or_init increment
+      def inc_comment_or_init(increment)
         self.class_variable_set :@@comments_counter, self.class_variable_get(:@@comments_counter) + increment
       end
 
     end
 
     module Initializer
-      def initialize *args
+      def initialize(*args)
         @comments = []
-        super *args
+        super(*args)
       end
     end
 

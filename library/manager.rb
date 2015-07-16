@@ -81,22 +81,22 @@ TEXT
     {
       "readers" => {
         "Ivan Testenko" => {
-          "pages" => 1040, 
-          "books" => 3, 
+          "pages" => 1040,
+          "books" => 3,
           "authors" => ["David A. Black", "Leo Tolstoy"]
           }
         },
       "book_titles" => {
         "The Well-Grounded Rubyist" => {
-          "author" => "David A. Black", 
-          "reading_hours" => 123, 
+          "author" => "David A. Black",
+          "reading_hours" => 123,
           "readers" => ["Ivan Testenko"]
           }
         },
       "authors" => {
         "Leo Tolstoy" => {
-          "pages" => 123, 
-          "readers" => 4, 
+          "pages" => 123,
+          "readers" => 4,
           "books" => 3
           }
         }

@@ -1,5 +1,5 @@
 class Library::Author
-  
+
   include Library::Commentable
 
   attr_accessor :year_of_birth, :year_of_death, :name
@@ -9,5 +9,5 @@ class Library::Author
     @year_of_death = year_of_death
     @name = name
   end
-  
+
 end
